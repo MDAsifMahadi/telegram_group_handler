@@ -14,3 +14,5 @@ bot.on('message', async (msg) => {
     await checkSubscription(bot, userId, chatId, msg.message_id);
   }
 });
+
+console.log('Bot is running...');
